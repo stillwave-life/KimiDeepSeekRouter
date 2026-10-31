@@ -1,0 +1,16 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*credentials*
+
+# build / local
+bin/
+dist/
+*.exe
+*.log
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
